@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  charset="UTF-8">
+  name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Perfect Day</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🌷The Perfect Day🌷</h1>
+    <p class="subtitle">Roll the dice. Reflect. Remember.</p>
+
+    <div class="dice-area">
+      <button id="diceBtn" class="dice">🎲 Roll</button>
+      <p id="question">Click the dice for your first reflection question</p>
+    </div>
+
+    <div class="answer-area">
+      <textarea id="answerBox" placeholder="Write your thoughts here..."></textarea>
+      <button id="saveBtn">Save to Diary</button>
+    </div>
+
+    <h2>📖 Your Diary</h2>
+    <div id="diaryEntries"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
